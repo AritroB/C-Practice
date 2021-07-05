@@ -12,3 +12,12 @@ int main()
         c = getchar();
     }
 }
+
+/* copy input to output; 2nd version */
+int main()
+{
+    int c;
+
+    while ((c = getchar()) != EOF)
+        putchar(c);
+}
