@@ -2,16 +2,18 @@
 
 int Factorial(int n);
 
-int main(void) int number;
-int answer;
+int main(void)
+{
+    int number;
+    int answer;
 
-printf("Input a number: ");
+    printf("Input a number: ");
 
-scanf("%d", &number);
+    scanf("%d", &number);
 
-answer = Factorial(number);
+    answer = Factorial(number);
 
-printf("The factorial of %d is %d\n", number, answer);
+    printf("The factorial of %d is %d\n", number, answer);
 }
 
 int Factorial(int n)
